@@ -9,8 +9,12 @@ const app = express();
 const PORT = process.env.PORT || 5000
 
 //route handler example
+app.get('/test', (req, res) => {
+    res.send({ TEST: 'this is a test!' });
+});
+
 app.get('/', (req, res) => {
-    res.send({ hi: 'there' });
+    res.send({ Hello: 'world!' });
 });
 
 
