@@ -1,0 +1,8 @@
+express
+cookie-session
+mongoose
+passport-google-oauth20
+create-react-app
+heroku
+passport
+concurrently

@@ -1,0 +1,6 @@
+matarialize-css
+axios
+react
+react-dom
+react-redux
+redux-thunk
